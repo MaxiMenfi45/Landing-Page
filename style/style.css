@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*  ----------------------- PREDETERMINED CSS ----------------------- */
+
+
+
+
+.menuContainer{
+    display:flex;
+    background-color: #1F2937;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    gap: 10px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.childLogo , .childMenu{
+    color: #ffff;
+    font-size: 20px;
+}
+
+.childLogo{
+    padding-left: 20rem;
+    flex: 1;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20rem;
+    gap: 20px;
+
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.childText,.childText_text,.childText_singUp,.childImg,.childTextC,.imgTex{
+    
+                         /* GENERAL PROPIERTIES */
+    color: whitesmoke;
+    
+}
+.childText,.childText_singUp{
+    font-size: 18px;
+}
+
+.imgTex, .textContainer{
+    flex:1;
+}
+
+
+
+
+
+.textContainer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#1F2937 ;
+    width: 100%;                                           /*Father's Container*/
+    height: 28rem;
+    display: flex;
+
+}
+
+.childTextContainer{
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 20rem;                /* child of textContainer and father of text and image */
+    padding-right: 2rem;
+    flex-direction: column;
+
+}
+
+
+
+.childText{
+
+    margin-top: 25px;
+    font-size: 60px;        /* Text THIS WEBSITE IS AWESOME */
+    font-weight: bold;
+}
+.childText_text{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+
+
+
+
+.childText_singUp{
+     
+    border-radius: 25%; /*Text "Sing up" */
+    width: 100px;
+    height: 30px;
+    background-color: rgb(21, 0, 255);
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+
+}
+
+.imgText{
+
+    margin-top: 1.5rem;
+    display:inline-block;   
+    margin-left: 5rem;
+
+}
+                                /*Propierties of image */
+    .childImg{
+        width: 500px;   
+        height: 300px;
+    }
+/*-----------------------------------------------------------------------*/
+
+
+.infContainer{
+
+    height: 5rem;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+
+
+#subText{
+ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;            /* Sub-Title */
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.imgBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 15rem;
+    gap: 50px;
+
+}
+
+.box{                   /*box of "some random.." */
+   
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(5, 96, 114, 0.254);
+    gap: 300px;
+ 
+}
+
+.textBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    height: 28rem;
+    background-color: rgb(187, 116, 9);
+
+}
+.textBoxIn{
+
+    background-color: aqua;
+    border: 2px solid red;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    gap: 20px;}   
+
+
+
+
+
