@@ -203,7 +203,7 @@ table {
 
 }
 
-.box{                   /*box of "some random.." */
+.box{                   /*box of Image */
    
     height: 200px;
     width: 200px;
@@ -216,21 +216,25 @@ table {
 
 .textBox{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     gap: 10px;
     width: 100%;
-    height: 28rem;
-    background-color: rgb(187, 116, 9);
+    height: 9rem;
+    background-color:whitesmoke;            /*box of "this is some subtext.." */
+    gap: 50px;
 
 }
 .textBoxIn{
-
-    background-color: aqua;
-    border: 2px solid red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
     text-align: center;
     width: 200px;
     height: 50px;
-    gap: 20px;}   
+
+}
+
+
+   
 
 
 
